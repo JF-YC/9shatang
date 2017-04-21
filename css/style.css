@@ -1,0 +1,107 @@
+body {
+	font-size: 18px;
+	line-height: 30px;
+	background: #fff;
+	font-family: Verdana, Arial, "Microsoft YaHei", "SimHei", sans-serif;
+	color: #000;
+	position: relative;
+}
+ul, li {
+	list-style: none;
+}
+a, a:link, a:visited {
+	color: #000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #ff4500;
+	text-decoration: underline;
+}
+.h0Div {
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+.hide {
+	display: none;
+}
+.imgFloatLeft img{float:left;}
+.paddingTop20{ padding-top:20px;}
+.f36{ font-size:36px; line-height:56px;}
+.pRelative{position:relative;}
+.w960{ width:960px; margin:0 auto; clear:both;}
+.highLight1{ background-color:#FCFA05; padding:3px;}
+.highLight2{ color:#670003;}
+.highLight3{ color:#FCFA05;}
+.header{ width:100%; height:90px;}
+.header .conLeft{ float:left; width:400px; height:90px; box-sizing:border-box; padding-top:53px; font-size:12px; color:#670003;}
+.header a{ position:absolute; display:block; width:350px; height:90px; left:0; top:0; font-size:36px; font-weight:bold; color:#670003; text-decoration:none; box-sizing:border-box; padding-top:20px;}
+.header .conRight{ float:right; width:400px; height:90px; box-sizing:border-box; text-align:right; font-size:24px; color:#ac0005; line-height:90px;}
+.banner{ width:100%; height:340px; position:relative; background:#ac0005;}
+.banner .topBg{ width:100%; height:24px; background:url(TB2HLJXfpXXXXX2XXXXXXXXXXXX_!!20429715.png) 0 0 repeat-x; position:absolute; top:0; left:0; z-index:3;}
+.banner .label{ width:100px; height:40px; background:#222; position:absolute; z-index:2; overflow:hidden; font-size:14px; text-align:center; color:#fff; line-height:46px; left:10px; top:22px;}
+.banner .conLeft{ width:370px; padding:85px 0 0 0px; float:left;}
+.banner .conLeft h1{ font-size:36px; color:#fff; font-weight:normal; margin-bottom:20px;}
+.banner .conLeft p{ font-size:16px; color:#fff;}
+.banner .conRight{ width:545px; height:330px; float:right; padding-top:10px;}
+.chengnuo{ padding:10px 0 20px 0;}
+.chengnuo h2{display:block; clear:both; width:100%; height:70px; line-height:70px; background:#ac0005; color:#ffffff; font-weight:normal; font-size:36px; text-align:center; margin-bottom:20px;}
+.chengnuo .con{ padding-right:250px; background:url(wechat1.jpg) right 0 no-repeat; text-indent:2em; padding-bottom:10px;}
+.chengnuo .con ul li{ background:url(TB2q278fXXXXXaEXXXXXXXXXXXX_!!20429715.jpg) 18px 10px no-repeat;}
+.zhici{ height:490px; box-sizing:border-box; background:url(TB2ih7VfXXXXXb3XXXXXXXXXXXX_!!20429715.jpg) 0 0 no-repeat; padding:100px 40px 0 40px; text-indent:2em;}
+.chuzhong{ box-sizing:border-box; background:url(TB27weAjXXXXXX_XpXXXXXXXXXX_!!20429715.jpg) left top no-repeat; height:548px; position:relative; margin-bottom:15px;}
+.chuzhong h2{display:block; clear:both; width:100%; height:70px; line-height:70px; background:#ac0005; color:#ffffff; font-weight:normal; font-size:36px; text-align:center;}
+.chuzhong .subTitle{width:100%; height:30px; text-align:center; line-height:30px; color:#ac0005; font-size:20px; margin:5px 0 0 0;}
+.chuzhong .conLeft{ position:absolute; width:278px; height:390px; left:20px; top:115px;}
+.chuzhong .conRight{text-indent:2em; font-size:16px; line-height:28px; position:absolute; width:620px; left:320px; top:115px;}
+.xuanhu{ background:#f7f7f7; padding-bottom:30px;}
+.xuanhu h2{display:block; clear:both; width:100%; height:70px; line-height:70px; background:#ac0005; color:#ffffff; font-weight:normal; font-size:36px; text-align:center;}
+.xuanhu .subTitle{ font-size:16px; color:#000; text-align:center; line-height:24px; padding:10px 0 0 0;}
+.xuanhu h3{ display:block; margin:10px auto; clear:both; width:60px; height:60px; border:#ac0005 1px solid; line-height:60px; text-align:center; font-size:48px; color:#ac0005; font-weight:normal;}
+.xuanhu .con{font-size:16px; line-height:24px; text-indent:2em; color:#000; padding:0 20px;}
+.xuanhu .con p{padding:0 0 5px 0;}
+.huagong{padding:10px; background:#fff2c1;}
+.huagong h4{ font-size:24px; font-weight:bold; color:#ac0005; margin:0 0 10px 0; text-align:center; display:block; width:100%;}
+.zaoxing{ padding:80px 0 30px 0; background:url(TB2Poo0fXXXXXb9XXXXXXXXXXXX_!!20429715.jpg) center 10px no-repeat;}
+.zaoxing p{ text-indent:2em;}
+.zaoxing .con{ padding-top:20px;}
+.zaoxing .con img{ float:left;}
+.question{ height:188px; background:url(TB2DCpXfpXXXXXNXXXXXXXXXXXX_!!20429715.jpg) center center no-repeat; box-sizing:border-box; padding:30px 30px 0 30px; text-indent:2em; color:#fff; margin-bottom:20px;}
+.niliao{padding:100px 0 30px 0; background:url(TB2HkFafpXXXXXHXXXXXXXXXXXX_!!20429715.jpg) center 30px no-repeat;}
+.niliao p{ text-indent:2em;}
+.kaihu h2{display:block; clear:both; width:100%; height:70px; line-height:70px; background:#ac0005; color:#ffffff; font-weight:normal; font-size:36px; text-align:center;}
+.kaihu, .yanghu{background:#f7f7f7; padding-bottom:30px; overflow:hidden;}
+.kaihu h2, .yanghu h2{display:block; clear:both; width:100%; height:70px; line-height:70px; background:#ac0005; color:#ffffff; font-weight:normal; font-size:36px; text-align:center;}
+.kaihu .subTitle, .yanghu .subTitle{font-size:16px; color:#000; text-align:center; line-height:24px; padding:10px 0 0 0;}
+.kaihu .title, .yanghu .title{ text-align:center; margin:15px 0; clear:both;}
+.kaihu h3, .yanghu h3{display:inline-block; clear:both; height:40px; line-height:40px; color:#ac0005; font-weight:bold; font-size:30px; text-align:center; border:1px #ac0005 solid; border-left:none; border-right:none;}
+.kaihu ul{padding:0 20px;}
+.kaihu ul li{clear:both; margin:0 0 10px 0; overflow:hidden;}
+.kaihu ul li .step{width:30px; background:#ac0005; text-align:center; font-size:16px; color:#fff; box-sizing:border-box; padding-top:12px; height:115px; float:left;}
+.kaihu ul li .pic{width:185px; box-sizing:border-box; height:115px; float:left;}
+.kaihu ul li .name{color:#ac0005; font-size:24px; font-weight:bold; padding:5px 0; }
+.kaihu ul li .con{width:690px; box-sizing:border-box; float:right; font-size:14px; line-height:20px;}
+.yanghu .con{ padding:0 20px 0 20px; overflow:hidden;}
+.yanghu p{padding:0 0 5px 0; font-size:14px; line-height:20px; text-indent:2em;}
+.yanghu .con .conLeft{ width:310px; float:left;}
+.yanghu .con .conRight{ width:594px; float:right;}
+.yanghu h4{ display:block; margin:10px auto; clear:both; width:60px; height:60px; border:#ac0005 1px solid; line-height:60px; text-align:center; font-size:48px; color:#ac0005; font-weight:normal;}
+.fengjing img{float:left;}
+.gongyi img, .baoyang img{float:left;}
+.chongshen{ text-align:center; color:#ffdd00; font-size:20px; background-color:#ac0005; padding:20px 0;}
+.footer{ background:#F0F0F0; padding:30px 0; line-height:24px; font-size:12px; color:#666; text-align:center;}
+.footer .contact{ color:#ccc;}
+.footer .contact a{ color:#ccc; text-decoration:none;}
+
+.dlnote_close{position:absolute;display:block;width:13px;height:13px;overflow:hidden;font-size:0;background:url(http://img03.taobaocdn.com/imgextra/i3/111922396/TB2FVo_bXXXXXbsXXXXXXXXXXXX_!!111922396.jpg) no-repeat;top:1px;right:1px;}
+.dlnote_close:hover{position:absolute;display:block;width:13px;height:13px;overflow:hidden;font-size:0;background:url(http://img03.taobaocdn.com/imgextra/i3/111922396/TB2FVo_bXXXXXbsXXXXXXXXXXXX_!!111922396.jpg) no-repeat;top:1px;right:1px;}
+#wechat{z-index:1;position:fixed;text-align:center;width:128px;overflow:hidden;color:#444;margin-left:550px;top:398px;right:30px;_position:absolute}
+#wechat1 {z-index: 1; position: fixed; text-align: center; width: 126px; overflow:hidden; color: #444; top:130px;left:30px; _position: absolute; border:1px #eee solid;}
+#wechat1 .wx1 {width: 126px; height: 280px; color: #444;line-height:20px;}
+#wechat1 .wx1 a {width: 126px; display: block; background: #fff; height: 280px; padding-top: 15px; font-size:14px}
+#wechat1 .wx1 a:hover {background: #df0011; color: #fff; text-decoration: none}
+#wechat1 .wx1 a img{ float:none; margin:0 auto;}
+#wechat1 .wx1 p {line-height: 20px}
+#wechat2 {z-index: 1; position: fixed; text-align: center; width: 100px; overflow:hidden; color: #444; margin-left: 550px; top:360px;right:10px; _position: absolute}
+
+.weixinbg{ background:right center url(wx.jpg) no-repeat}
